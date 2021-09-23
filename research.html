@@ -1,0 +1,249 @@
+---
+layout: page
+title: Research
+permalink: /research/
+style: research
+---
+
+<!--This page was modeled off of jon barron's website (https://jonbarron.info/)
+Consider refactoring this to use Jekyll: https://github.com/leonidk/new_website
+-->
+<style type="text/css">
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+heading {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700
+}
+
+name {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+</style>
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Austin C Stone</name>
+              </p>
+              <p> 
+                I'm interested in using computers to understand images and videos. As of 2021, I work on research with the robotics group at Google Brain.
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="{{site.baseurl}}/assets/images/neural_me.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="{{site.baseurl}}/assets/images/neural_me.jpeg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <!--<tr onmouseout="smurf_stop()" onmouseover="smurf_start()">!-->
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='smurf_image'>
+                <!--<video  width=100% height=100% muted autoplay loop>
+                <source src="{{site.baseurl}}/assets/images/smurf.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>!-->
+                <img src='{{site.baseurl}}/assets/images/smurf.gif' width="160">
+              </div>
+              <script type="text/javascript">
+                function smurf_start() {
+                  document.getElementById('smurf_image').style.opacity = "1";
+                }
+
+                function smurf_stop() {
+                  document.getElementById('smurf_image').style.opacity = "0";
+                }
+                hypernerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Stone_SMURF_Self-Teaching_Multi-Frame_Unsupervised_RAFT_With_Full-Image_Warping_CVPR_2021_paper.html">
+                <papertitle>SMURF: Self-Teaching Multi-Frame Unsupervised RAFT with
+                Full-Image Warping</papertitle>
+              </a>
+              <br>
+              <strong>Austin Stone*</strong>,
+              Daniel Mauerer*,
+              Alper Avaci,
+              Anelia Angelova,
+              Rico Jonschkowski
+              <br>
+              <em>CVPR</em>, 2021 
+              <br>
+              <a href="https://www.youtube.com/watch?v=W7NCbfZp6QE&t=2s&ab_channel=AustinCStone">Video</a>
+              /
+              <a href="https://arxiv.org/abs/2105.07014">arXiv</a>
+              /
+              <a href="https://github.com/google-research/google-research/tree/master/smurf">Code</a>
+              <p></p>
+              <p>Improved the state of the art in unsupervised optical flow by ~40% by
+              using RAFT architecture along with new ideas to improve the training signal.</p>
+            </td>
+          </tr> 
+
+          <!--<tr onmouseout="dist_control_stop()" onmouseover="dist_control_start()">-->
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dist_control_image'>
+                  <img src='{{site.baseurl}}/assets/images/dist_control.gif' width="160">
+                <!--<img src='images/dist_control_before.png' width="160">-->
+              </div>
+              <script type="text/javascript">
+                function dist_control_start() {
+                  document.getElementById('dist_control_image').style.opacity = "1";
+                }
+
+                function dist_control_stop() {
+                  document.getElementById('dist_control_image').style.opacity = "0";
+                }
+                dist_control_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2101.02722">
+              <papertitle>The Distracting Control Suite – A Challenging Benchmark
+for Reinforcement Learning from Pixels</papertitle>
+              </a>
+              <br>
+              <strong>Austin Stone*</strong>,
+              Oscar Ramirez,
+              Kurt Konolige,
+              Rico Jonschkowski*
+              <br>
+              <em>arXiv</em>, 2021
+              <br>
+              <a href="https://arxiv.org/abs/2101.02722">arXiv</a>
+              /
+              <a href="https://github.com/google-research/google-research/tree/master/distracting_control">code</a>
+              <p></p>
+              <p>We developed a challenging benchmark for vision-based control that includes variations in background, color, and camera pose. We analyze state of the art reinforcement learning methods on our benchmark and show they perform poorly,
+              highlighting the need for new methods which can cope with the visual complexities of the real world.</p>
+            </td>
+                      </table>
+</body>
