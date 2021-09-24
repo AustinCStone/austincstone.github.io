@@ -79,6 +79,10 @@ a {
   text-decoration: none;
 }
 
+table td {
+    border: 0px solid #e8e8e8;
+}
+
 a:focus,
 a:hover {
   color: #f09228;
@@ -160,6 +164,7 @@ span.highlight {
             </td>
           </tr>
         </tbody></table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <!--<tr onmouseout="smurf_stop()" onmouseover="smurf_start()">!-->
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -244,6 +249,131 @@ for Reinforcement Learning from Pixels</papertitle>
               <p></p>
               <p>Created a new benchmark for vision-based control that includes variations in background, color, and camera pose. Showed that state of the art RL methods perform poorly on our benchmark,
               highlighting the need for new methods which can cope with the visual complexities of the real world.</p>
+            </td>
+
+            </tr>
+                <!--<tr onmouseout="dist_control_stop()" onmouseover="dist_control_start()">-->
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dist_control_image'>
+                  <img src='{{site.baseurl}}/assets/images/uflow.png' width="160">
+                <!--<img src='images/dist_control_before.png' width="160">-->
+              </div>
+              <script type="text/javascript">
+                function dist_control_start() {
+                  document.getElementById('dist_control_image').style.opacity = "1";
+                }
+
+                function dist_control_stop() {
+                  document.getElementById('dist_control_image').style.opacity = "0";
+                }
+                // dist_control_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2006.04902">
+              <papertitle>What Matters in Unsupervised Optical Flow</papertitle>
+              </a>
+              <br>
+              Rico Jonschkowski,
+              <strong>Austin Stone</strong>,
+              Jonathan T Barron,
+              Ariel Gordon,
+              Kurt Konolige,
+              Anelia Angelova
+              <br>
+              <em>ECCV</em>, 2020 (oral)
+              <br>
+              <a href="https://www.youtube.com/watch?v=1VFBMPAHH7U&ab_channel=RicoJonschkowski">Video</a>
+              /
+              <a href="https://arxiv.org/abs/2006.04902">arXiv</a>
+              /
+              <a href="https://github.com/google-research/google-research/tree/master/uflow">Code</a>
+              <p></p>
+              <p>Conducted a large scale study of many proposed innovations in Unsupervised Optical Flow
+              in order to determine what really matters.</p>
+            </td>
+
+                        </tr>
+                <!--<tr onmouseout="dist_control_stop()" onmouseover="dist_control_start()">-->
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dist_control_image'>
+                  <img src='{{site.baseurl}}/assets/images/object-nav.png' width="160">
+                <!--<img src='images/dist_control_before.png' width="160">-->
+              </div>
+              <script type="text/javascript">
+                function dist_control_start() {
+                  document.getElementById('dist_control_image').style.opacity = "1";
+                }
+
+                function dist_control_stop() {
+                  document.getElementById('dist_control_image').style.opacity = "0";
+                }
+                // dist_control_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2007.14545.pdf">
+              <papertitle>Learning Object-conditioned Exploration Using Distributed Soft Actor Critic</papertitle>
+              </a>
+              <br>
+              Ayzaan Wahid,
+              <strong>Austin Stone</strong>,
+              Brian Ichter,
+              Kevin Chen,
+              Alexander Toshev
+              <br>
+              <em>CoRL</em>, 2020
+              <br>
+              <a href="https://arxiv.org/pdf/2007.14545.pdf">arXiv</a>
+              <p></p>
+              <p>Trained a robot agent to navigate to objects from video using reinforcement learning.</p>
+            </td>
+
+                                    </tr>
+                <!--<tr onmouseout="dist_control_stop()" onmouseover="dist_control_start()">-->
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dist_control_image'>
+                  <img src='{{site.baseurl}}/assets/images/NEMO.gif' width="160">
+                <!--<img src='images/dist_control_before.png' width="160">-->
+              </div>
+              <script type="text/javascript">
+                function dist_control_start() {
+                  document.getElementById('dist_control_image').style.opacity = "1";
+                }
+
+                function dist_control_stop() {
+                  document.getElementById('dist_control_image').style.opacity = "0";
+                }
+                // dist_control_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1909.12950">
+              <papertitle>Towards Object Detection from Motion</papertitle>
+              </a>
+              <br>
+              Rico Jonschkowski,
+              <strong>Austin Stone</strong>
+              <br>
+              <em>arXiv</em>, 2019
+              <br>
+              <a href="https://www.youtube.com/watch?v=BH0Hv3zZG_4&ab_channel=RicoJonschkowski">Video</a>
+              /
+              <a href="https://arxiv.org/abs/1909.12950">arXiv</a>
+              <p></p>
+              <p>Developed a technique for weakly supervised object detection requiring only pairs of videos, one containing the object and the other not.
+              </p>
+            </td>
+
+                                    </tr>
+                <!--<tr onmouseout="dist_control_stop()" onmouseover="dist_control_start()">-->
+            <td style="padding:20px;width:25%;vertical-align:middle">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle;text-align:right">
+              <a href="https://github.com/jonbarron/jonbarron_website">Source</a>
             </td>
                       </table>
 </body>
