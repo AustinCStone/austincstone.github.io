@@ -1,9 +1,27 @@
 ---
 layout: post
-title:  "Evolving a Perfect Lens"
+title:  "Evolving the Perfect Lens"
 date:   2021-09-21 14:10:01 -0700
 categories: jekyll update
 ---
+
+(WIP):
+
+The eye is frequently given as an example of something which is hard to fathom was created by evolution.
+The origins of this might be traced back to some words from Darwin (which are frequently pulled out of context).
+In “On the Origin of Species” Darwin wrote that the idea that natural selection could produce such an intricate organ “seems, I freely confess, absurd in the highest possible degree.” What is left out is that Darwin goes on to point out
+how absurd the structure of the solar system once seemed, making the point that our intuitions are reality
+can be misleading.
+
+In this post, I will show how the lens of an eye can be evolved using genetic algorithms. A perfect
+lens is actually pretty complicated. From the Feynman Lectures:
+
+Now suppose that we have a point at O, at a distance s from the front surface
+of the glass, and another point O′ at a distance s′ inside the glass, and we desire 
+
+to arrange the curved surface in such a manner that every ray from O which hits ′
+the surface, at any point P, will be bent so as to proceed toward the point O . For that to be true, we have to shape the surface in such a way that the time it takes for the light to go from O to P, that is, the distance OP divided by the speed of light (the speed here is unity), plus n · O′P , which is the time it takes to go from P to O′, is equal to a constant independent of the point P. This condition supplies us with an equation for determining the surface. The answer is that the surface is a very complicated fourth-degree curve, and the student may entertain himself by trying to calculate it by analytic geometry. It is simpler to try a special case that corresponds to s → ∞, because then the curve is a second-degree curve and is more recognizable. It is interesting to compare this curve with the parabolic curve we found for a focusing mirror when the light is coming from infinity.
+
 Test test test! You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
