@@ -21,7 +21,7 @@
 title: Welcome to Austin's Blog
 email: austinstone (at) utexas (dot) edu
 description: >- # this means to ignore newlines until "baseurl:"
-  "TODO: some pithy catch phrase."
+  Consistency beats motivation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://austincstone.github.io" # the base hostname & protocol for your site
 github_username:  austincstone
